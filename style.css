@@ -1,0 +1,80 @@
+body, html{
+	height: 100%;
+}
+
+.parallax{
+	background: url(desk-laptop-notebook-7098.jpg);
+	height: 100%; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0;
+	z-index: 1;
+	overflow-x: hidden;
+	overflow-y: auto;
+	perspective: 2px;
+}
+
+/*.container{
+	text-align: center;
+	font-family: 'Notable', sans-serif ;
+	font-size: 40px;
+	vertical-align: middle;
+	margin-top: 0%;
+}*/
+
+.txt{
+	background: transparent;
+	text-align: center;
+	font-family: 'Notable', sans-serif ;
+	font-size: 40px;
+	vertical-align: middle;
+	margin-top: 22%;
+}
+
+.txt:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.btn{
+	margin-left: 40%;
+	border-radius: 20px;  
+}
+.btn:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+.scrolleffect{
+	text-align: center;
+	font-style: sans-serif;
+	font-size: 40px;
+	background: rgba(17, 13, 34,0.2);
+	display: flex;
+	flex-flow: row wrap;
+	align-content:  right;
+	align-items: stretch;
+	padding-left: 46%;
+	padding-top: 0px;
+}
+
+.back{
+	margin: 20px 35px;
+	background-color: rgba(0,0,200,0.4);
+	border: 3px dotted blue;
+	border-radius: 40px;
+}
+
+p{
+	color: #FF8B56;
+}
+a img{
+	width: 30px;
+	height: 20px;
+	flex: 2;
+	padding-right: 6px;
+}
+a img:hover{
+	transform: scale(1.1);
+}

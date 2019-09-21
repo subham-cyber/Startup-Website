@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" type="text/css" href="style-register.css">
+</head>
+<body>
+	<h1>
+		Register
+	</h1>
+	<a href="index.html">
+	<img src="https://image.flaticon.com/icons/svg/0/340.svg" width="22" height="22">
+	</a>
+	<form>
+		<div class="first">
+		First Name : <input type="text" name="firstname">
+		</div>
+		<br>
+		<div class="last">
+		Last Name  : <input type="text" name="lastname">
+		</div>
+		<br>
+		<div class="email">
+		Email : <input type="Email" required name="email">
+		</div>
+		<br>
+		<div class="pass">
+		Password : <input type="Password" name="password" min="5">
+		</div>
+		<br>
+		<div class="bday">
+		Birthday : <input type="date" name="birthday">
+		</div>
+		<br>
+		<div class="gender">
+		Gender :<br>
+		<input type="radio" name="gender" value="male">Male
+		<br>
+		<input type="radio" name="gender" value="female">Female<br>
+		<input type="radio" name="gender" value="others">Others<br>
+		</div>
+		<br>
+		Pets : <br>
+		<input type="checkbox" name="cat">Cat<br>
+		<input type="checkbox" name="dog">Dogs<br>
+		Cars : <br>
+		<select name="cars">
+			<option value="Volvo" name="volvo">Volvo</option>
+			<option value="Audi" name="audi">Audi</option>
+		</select>
+		<br>
+		<hr>
+		<input type="submit" value="Register">
+		<input type="reset">
+	</form>
+</body>
+</html>
